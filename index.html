@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Your Body | Elite Fitness Coaching</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter for a clean, modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#0f766e', // Subtle Deep Teal (Teal 700)
+                        primaryDark: '#115e59', // Darker Teal (Teal 800)
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Navigation -->
+    <nav class="w-full bg-white shadow-sm fixed top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-2xl font-bold text-primary tracking-tight">FitCoach<span class="text-gray-800">.in</span></a>
+                </div>
+                <div class="flex items-center">
+                    <a href="#services" class="hidden md:block text-gray-600 hover:text-primary px-3 py-2 font-medium transition-colors">Programs</a>
+                    <a href="#testimonials" class="hidden md:block text-gray-600 hover:text-primary px-3 py-2 font-medium transition-colors">Success Stories</a>
+                    <a href="#contact" class="ml-4 bg-primary hover:bg-primaryDark text-white px-5 py-2.5 rounded-lg font-medium transition-transform transform hover:scale-105 active:scale-95 shadow-md">
+                        Join Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <header class="relative pt-24 pb-16 md:pt-32 md:pb-24 flex items-center min-h-[85vh] bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="text-primary font-semibold tracking-wider uppercase text-sm mb-4 block">Proven Results. No BS.</span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight leading-tight mb-6">
+                Transform Your Body in <span class="text-primary">90 Days</span>
+            </h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Stop guessing and start transforming. Get a structured workout routine and a realistic desi diet plan that fits your busy lifestyle.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#services" class="bg-primary hover:bg-primaryDark text-white text-lg font-semibold px-8 py-4 rounded-xl shadow-lg shadow-teal-700/20 transition-all transform hover:-translate-y-1">
+                    Join Now – Limited Slots
+                </a>
+                <a href="#contact" class="bg-white hover:bg-gray-50 text-gray-800 border-2 border-gray-200 text-lg font-semibold px-8 py-4 rounded-xl shadow-sm transition-all">
+                    Contact Us
+                </a>
+            </div>
+            
+            <!-- Trust Indicators -->
+            <div class="mt-12 flex justify-center items-center gap-6 text-sm text-gray-500 font-medium">
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    Home Workouts
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                    Desi Diet Plans
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 4. Pricing Highlight Section (Urgency) -->
+    <section class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col md:flex-row items-center justify-between">
+            <div class="mb-4 md:mb-0 text-left">
+                <h2 class="text-2xl font-bold mb-1 text-yellow-400">🔥 Limited Time Offer</h2>
+                <p class="text-gray-300">Affordable Fitness Plans for Everyone. Enrollments closing soon for this month!</p>
+            </div>
+            <div>
+                <a href="#services" class="inline-block bg-white text-gray-900 font-bold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors">
+                    View Pricing
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Select Your Goal</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Straightforward pricing. No hidden fees. Just results.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl border border-gray-100 p-8 transition-all duration-300 flex flex-col h-full group relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gray-200 group-hover:bg-primary transition-colors"></div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Weight Loss Program</h3>
+                    <p class="text-gray-500 mb-6 flex-grow">Lose 5–10 kg with a guided plan without starving yourself.</p>
+                    <div class="mb-8">
+                        <span class="text-4xl font-extrabold text-gray-900">₹1,999</span>
+                        <span class="text-gray-500 font-medium">/month</span>
+                    </div>
+                    <ul class="space-y-3 mb-8 text-sm text-gray-600">
+                        <li class="flex items-center"><svg class="w-4 h-4 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Customized Diet Plan</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Home/Gym Workouts</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Bi-weekly Check-ins</li>
+                    </ul>
+                    <button onclick="handleCheckout('Weight Loss Program', '1999')" class="w-full bg-primary hover:bg-primaryDark text-white font-semibold py-3 rounded-xl transition-colors mt-auto">
+                        Get Started
+                    </button>
+                </div>
+
+                <!-- Card 2 (Popular) -->
+                <div class="bg-white rounded-2xl shadow-md hover:shadow-xl border-2 border-primary p-8 transition-all duration-300 flex flex-col h-full relative transform md:-translate-y-4">
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary text-white text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full">
+                        Most Popular
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Muscle Gain Program</h3>
+                    <p class="text-gray-500 mb-6 flex-grow">Build strength with structured progressive overload workouts.</p>
+                    <div class="mb-8">
+                        <span class="text-4xl font-extrabold text-gray-900">₹2,499</span>
+                        <span class="text-gray-500 font-medium">/month</span>
+                    </div>
+                    <ul class="space-y-3 mb-8 text-sm text-gray-600">
+                        <li class="flex items-center"><svg class="w-4 h-4 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> High-Protein Indian Diet</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Form Correction Videos</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-primary mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Weekly Progress Tracking</li>
+                    </ul>
+                    <button onclick="handleCheckout('Muscle Gain Program', '2499')" class="w-full bg-primary hover:bg-primaryDark text-white font-semibold py-3 rounded-xl transition-colors mt-auto shadow-lg shadow-teal-700/20">
+                        Get Started
+                    </button>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl border border-gray-100 p-8 transition-all duration-300 flex flex-col h-full group relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gray-200 group-hover:bg-gray-800 transition-colors"></div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Personal Coaching</h3>
+                    <p class="text-gray-500 mb-6 flex-grow">Ultimate accountability. 1-on-1 direct access for guaranteed results.</p>
+                    <div class="mb-8">
+                        <span class="text-4xl font-extrabold text-gray-900">₹4,999</span>
+                        <span class="text-gray-500 font-medium">/month</span>
+                    </div>
+                    <ul class="space-y-3 mb-8 text-sm text-gray-600">
+                        <li class="flex items-center"><svg class="w-4 h-4 text-gray-800 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 1-on-1 WhatsApp Support</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-gray-800 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Highly Custom Diet & Training</li>
+                        <li class="flex items-center"><svg class="w-4 h-4 text-gray-800 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Priority Daily Check-ins</li>
+                    </ul>
+                    <button onclick="handleCheckout('Personal Coaching', '4999')" class="w-full bg-gray-900 hover:bg-black text-white font-semibold py-3 rounded-xl transition-colors mt-auto">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Real People. Real Results.</h2>
+                <p class="text-lg text-gray-600">Join hundreds of Indians who have changed their lives.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+                    <div class="flex text-yellow-400 mb-4">
+                        ★★★★★
+                    </div>
+                    <p class="text-gray-700 italic mb-6">"Lost 8 kg in 2 months. The plan was incredibly simple to follow and highly effective. I didn't even have to give up rice!"</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold mr-3">R</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Rohit Sharma</h4>
+                            <p class="text-sm text-gray-500">IT Professional, Bangalore</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+                    <div class="flex text-yellow-400 mb-4">
+                        ★★★★★
+                    </div>
+                    <p class="text-gray-700 italic mb-6">"Loved the diet plan. It was so easy to follow because it included normal home-cooked food. Highly recommended!"</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold mr-3">P</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Priya Verma</h4>
+                            <p class="text-sm text-gray-500">Homemaker, Delhi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+                    <div class="flex text-yellow-400 mb-4">
+                        ★★★★★
+                    </div>
+                    <p class="text-gray-700 italic mb-6">"Great support and motivation throughout my journey. The 1-on-1 coaching kept me accountable every single day."</p>
+                    <div class="flex items-center">
+                        <div class="w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold mr-3">A</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Aman Singh</h4>
+                            <p class="text-sm text-gray-500">Student, Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Contact Form Section -->
+    <section id="contact" class="py-24 bg-primary text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Ready to Start?</h2>
+                <p class="text-xl text-white/80">Fill out the form below and we'll get back to you within 24 hours.</p>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12 text-gray-800 max-w-2xl mx-auto">
+                <form onsubmit="handleFormSubmit(event)" class="space-y-6 text-left">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                            <input type="text" id="name" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-colors" placeholder="Rohit Sharma">
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                            <input type="tel" id="phone" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-colors" placeholder="+91 98765 43210">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                        <input type="email" id="email" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-colors" placeholder="rohit@example.com">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Your Goal / Message</label>
+                        <textarea id="message" rows="4" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary focus:border-primary outline-none transition-colors resize-none" placeholder="I want to lose 5kg in the next 2 months..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-primary hover:bg-primaryDark text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg transition-transform transform hover:-translate-y-1">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-8 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <a href="#" class="text-xl font-bold text-white tracking-tight mb-4 inline-block">FitCoach<span class="text-primary">.in</span></a>
+            <p class="text-gray-500 text-sm">
+                &copy; 2023 FitCoach India. All rights reserved.<br>
+                Results may vary from person to person.
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

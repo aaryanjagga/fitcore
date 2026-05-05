@@ -1,0 +1,4 @@
+    /* Minimal custom CSS for things Tailwind CDN doesn't cover natively out-of-the-box perfectly */
+        body {
+            -webkit-font-smoothing: antialiased;
+        }
